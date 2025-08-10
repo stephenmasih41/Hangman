@@ -21,13 +21,6 @@ It’s an exciting mix of **logic, loops, and ASCII art** 🖼️ — plus a gre
 
 ---
 
-## 📂 File Structure
-hangman/
-│
-├── main.py           # Main game logic (this file)
-├── hangman_words.py  # Contains the list of words
-├── hangman_art.py    # Contains the logo & stages ASCII art
-
 
 ## ⚙ How It Works
 
@@ -77,18 +70,4 @@ Then it:
 
 ---
 
-## 🖼 Example Output
- _                                             
-| |                                            
-| |__   __ _ _ __   __ _ _ __ ___   __ _ _ __  
-| '_ \ / _` | '_ \ / _` | '_ ` _ \ / _` | '_ \ 
-| | | | (_| | | | | (_| | | | | | | (_| | | | |
-|_| |_|\__,_|_| |_|\__, |_| |_| |_|\__,_|_| |_|
-                    __/ |                      
-                   |___/                       
 
-Word to guess: _ _ _ _ _
-****************************6/6 LIVES LEFT****************************
-Guess a letter: a
-Word to guess: a _ a _ _
-****************************YOU WIN****************************
